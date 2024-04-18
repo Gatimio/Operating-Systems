@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     memmap
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _err_quit, symObjAddr: 0x0, symBinAddr: 0x100003AE4, symSize: 0x30 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _err_quit, symObjAddr: 0x0, symBinAddr: 0x100003AE4, symSize: 0x30 }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _err_sys, symObjAddr: 0x30, symBinAddr: 0x100003B14, symSize: 0x24 }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x54, symBinAddr: 0x100003B38, symSize: 0x2AC }
+...
